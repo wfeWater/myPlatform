@@ -50,7 +50,7 @@
     <session id="1277415177">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.5" value="1" />
@@ -84,7 +84,7 @@
           <entry key="java" value="357" />
           <entry key="sql" value="607" />
           <entry key="txt" value="12" />
-          <entry key="xml" value="127" />
+          <entry key="xml" value="135" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -92,7 +92,7 @@
           <entry key="JAVA" value="357" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="Scratch" value="607" />
-          <entry key="XML" value="127" />
+          <entry key="XML" value="135" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.core.usages.trigger">
@@ -107,8 +107,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+            <state relative-caret-position="137">
+              <caret line="50" column="39" lean-forward="true" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -277,14 +277,6 @@
               <item name="myPlatform" type="b2602c69:ProjectViewProjectNode" />
               <item name="myPlatform" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -299,7 +291,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554195836582" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554197127815" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -409,17 +401,17 @@
       <workItem from="1553878827535" duration="95000" />
       <workItem from="1553962979129" duration="1146000" />
       <workItem from="1553964172243" duration="1307000" />
-      <workItem from="1554134589174" duration="3756000" />
+      <workItem from="1554134589174" duration="4572000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9083000" />
+    <option name="totallyTimeSpent" value="9899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2829426" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2829426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -436,7 +428,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.43117744" />
       <window_info anchor="bottom" id="Database Console" order="8" visible="true" weight="0.3283582" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4995958" visible="true" weight="0.50332224" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4995958" visible="true" weight="0.11295681" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" weight="0.73255813" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.40298507" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
@@ -520,8 +512,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+        <state relative-caret-position="137">
+          <caret line="50" column="39" lean-forward="true" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
         </state>
       </provider>
     </entry>
