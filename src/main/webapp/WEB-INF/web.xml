@@ -82,9 +82,10 @@
       <session-timeout>20</session-timeout>
   </session-config>
    -->
-
-  <error-page>
+  <!--
+  <error-page> -->
     <!-- 401表示权限被拒绝 -->
+    <!--
     <error-code>401</error-code>
     <location>/401.jsp</location>
   </error-page>
@@ -95,5 +96,5 @@
   <error-page>
     <error-code>404</error-code>
     <location>/404.jsp</location>
-  </error-page>
+  </error-page> -->
 </web-app>
