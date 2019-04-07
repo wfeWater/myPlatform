@@ -13,6 +13,62 @@
       <change afterPath="$PROJECT_DIR$/src/resources/jdbc.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/resources/mapper/UserMapper.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/wfewater/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/wfewater/service/IUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/wfewater/service/Impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/classes/cn/wfewater/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/classes/cn/wfewater/service/IUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/classes/cn/wfewater/service/Impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/UserAgentUtils-1.20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/asm-3.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/aspectjweaver-1.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/cglib-2.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/commons-beanutils-1.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/commons-codec-1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/commons-collections-3.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/commons-io-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/commons-lang-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/commons-pool-1.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/commons-pool2-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/druid-1.0.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/jackson-annotations-2.8.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/jackson-core-2.8.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/jackson-databind-2.8.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/jedis-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/jsqlparser-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/logback-classic-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/logback-core-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/mybatis-3.4.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/mysql-connector-java-8.0.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/pagehelper-5.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/protobuf-java-2.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/shiro-cache-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/shiro-config-core-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/shiro-config-ogdl-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/shiro-core-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/shiro-crypto-cipher-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/shiro-crypto-core-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/shiro-crypto-hash-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/shiro-event-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/shiro-lang-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/slf4j-api-1.7.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/spring-context-support-4.2.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/spring-core-4.2.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/spring-data-commons-2.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/spring-data-keyvalue-2.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/spring-data-redis-2.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/spring-jdbc-4.2.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/spring-oxm-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/spring-tx-4.2.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/spring-web-4.2.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/spring-webmvc-4.2.2.RELEASE.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myPlatform.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myPlatform.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -85,11 +141,11 @@
       <change beforePath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/shiro-web-1.2.3.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/slf4j-api-1.6.1.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/slide-webdavlib-2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/spring-aop-4.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/spring-beans-4.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/spring-context-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/spring-aop-4.1.6.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/spring-aop-4.2.2.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/spring-beans-4.1.6.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/spring-beans-4.2.2.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/spring-context-4.1.6.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/spring-context-4.2.2.RELEASE.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/spring-core-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/spring-expression-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/spring-expression-4.1.6.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/spring-expression-4.2.2.RELEASE.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/spring-jdbc-3.0.3.RELEASE.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/spring-test-4.3.0.RELEASE.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/myPlatform/WEB-INF/lib/spring-tx-3.0.3.RELEASE.jar" beforeDir="false" />
@@ -430,64 +486,13 @@
               <item name="myPlatform" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wfewater" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wfewater" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myPlatform" type="b2602c69:ProjectViewProjectNode" />
               <item name="myPlatform" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="myPlatform" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="myPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myPlatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="myPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -653,12 +658,12 @@
       <workItem from="1554620170591" duration="1099000" />
       <workItem from="1554621356811" duration="1759000" />
       <workItem from="1554623258799" duration="523000" />
-      <workItem from="1554633475592" duration="198000" />
+      <workItem from="1554633475592" duration="498000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35082000" />
+    <option name="totallyTimeSpent" value="35382000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -671,9 +676,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2279709" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2279709" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -683,14 +687,14 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1744186" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44019935" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32890365" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.43023255" />
       <window_info anchor="bottom" id="Database Console" order="8" visible="true" weight="0.3283582" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4995958" weight="0.12458472" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4995958" visible="true" weight="0.49335548" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" weight="0.73255813" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.40199336" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
