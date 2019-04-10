@@ -1,8 +1,8 @@
 package cn.wfewater.service;
 
-import org.springframework.stereotype.Service;
+import cn.wfewater.domain.User;
 
-@Service
 public interface IUserService {
     int getUserCount();
+    int add(User user);
 }

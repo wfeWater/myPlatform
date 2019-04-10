@@ -1138,26 +1138,20 @@
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="284" parent="280" name="salt">
+    <column id="284" parent="280" name="locked">
       <Position>4</Position>
-      <Comment>盐值</Comment>
-      <DataType>varchar(10)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="285" parent="280" name="role_id">
-      <Position>5</Position>
-      <Comment>角色列表</Comment>
-      <DataType>varchar(55)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="286" parent="280" name="locked">
-      <Position>6</Position>
       <Comment>是否锁定</Comment>
       <DataType>tinyint(1)|0s</DataType>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="287" parent="280" name="PRIMARY">
+    <column id="285" parent="280" name="telnum">
+      <Position>5</Position>
+      <DataType>varchar(25)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="286" parent="280" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
