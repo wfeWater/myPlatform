@@ -3,7 +3,7 @@
 <mapper namespace="cn.wfewater.dao.UserMapper" >
     <insert id="add" parameterType="cn.wfewater.domain.User">
         insert into sys_users ( username,password,telnum,locked)
-        VALUES (#{username},#{password},#{telnum},0)
+        VALUES (#{userName},#{password},#{telNum},0)
     </insert>
 
     <select id="getUserCount" resultType="java.lang.Integer" >

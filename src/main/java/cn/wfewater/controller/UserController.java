@@ -36,7 +36,7 @@ public class UserController {
         user.setTelNum(telNum);
         int isSucc = userService.add(user);
         System.out.println(isSucc);
-        return "redirect:index";
+        return "redirect:index.jsp";
     }
 
 

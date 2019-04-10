@@ -1,7 +1,7 @@
 <html>
 <body>
 <h2>Default Hello World!</h2>
-<form action="/add">
+<form action="${pageContext.request.contextPath}/add" method="post">
     username:<br>
     <input type="text" name="username" value="zhangsan">
     password:<br>

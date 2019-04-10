@@ -11,7 +11,7 @@
     <title>注册</title>
 </head>
 <body>
-    <form action="/add">
+    <form action="/add" method="post">
     用户名:<<br>
         <input type="text" name="username" value="zhangsan">
     密码:<<br>
