@@ -11,4 +11,12 @@
                count(*)
         from myplatform.sys_users
     </select>
+    <select id="existUsername" parameterType="string" resultType="java.lang.Integer">
+        select count(*) from sys_users
+        where username=#{username,jdbcType=VARCHAR}
+    </select>
+    <select id="selectUserByName" parameterType="string" resultType="cn.wfewater.domain.User">
+        select id,username,password,telnum from sys_users
+        where username=#{username,jdbcType=VARCHAR}
+    </select>
 </mapper>

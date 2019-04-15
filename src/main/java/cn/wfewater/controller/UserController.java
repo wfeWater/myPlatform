@@ -5,9 +5,12 @@ import cn.wfewater.service.Impl.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+import java.util.HashMap;
 
 @Controller
 
@@ -36,8 +39,36 @@ public class UserController {
         user.setTelNum(telNum);
         int isSucc = userService.add(user);
         System.out.println(isSucc);
-        return "redirect:index.jsp";
+        return "redirect:/";
+    }
+    //登录
+    @RequestMapping("/signin")
+    @ResponseBody
+    public Object signin(HttpServletRequest httpServletRequest, HttpSession httpSession) {
+        String password = httpServletRequest.getParameter("password");
+        String username = httpServletRequest.getParameter("username");
+        int loginSucc = userService.login(username,password);
+        HashMap<String,String> res = new HashMap<String, String>();
+        if (loginSucc==2) {
+            User user = userService.getUserByName(username);
+            Integer uid = user.getId();
+            httpSession.setAttribute("userId",uid);
+            httpSession.setAttribute("username",username);
+            res.put("stateCode","2");
+        }else if (loginSucc==1) {
+            res.put("stateCode","1");
+        }else {
+            res.put("stateCode","0");
+        }
+        return res;
     }
 
+    //用户登出
+    @RequestMapping("/signout")
+    public String signout(HttpSession httpSession) {
+        httpSession.removeAttribute("userId");
+        httpSession.removeAttribute("username");
+        return "redirect:/";
+    }
 
 }

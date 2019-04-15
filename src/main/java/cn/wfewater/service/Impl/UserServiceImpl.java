@@ -18,4 +18,24 @@ public class UserServiceImpl implements IUserService {
     public int add(User user) {
         return userDao.add(user);
     }
+
+    public int login(String username, String password) {
+        boolean isExsited = existUsername(username);
+        if (isExsited) {
+            User resUser = userDao.selectUserByName(username);
+            if (resUser.getPassword().equals(password)) {
+                return 2;
+            }
+                return 1;
+        }
+            return 0;
+    }
+
+    public User getUserByName(String username) {
+        return null;
+    }
+
+    public boolean existUsername(String username) {
+        return  userDao.existUsername(username)==1;
+    }
 }
