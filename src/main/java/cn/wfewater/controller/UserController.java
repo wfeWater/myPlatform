@@ -42,16 +42,18 @@ public class UserController {
         return "redirect:/";
     }
     //登录
-    @RequestMapping("/api/loginCheck")
+    @RequestMapping("/loginCheck")
     @ResponseBody
     public Object signin(HttpServletRequest httpServletRequest, HttpSession httpSession) {
-        System.out.println("In loginCheck");
+        //System.out.println("In loginCheck");
         String password = httpServletRequest.getParameter("password");
         String username = httpServletRequest.getParameter("username");
         int loginSucc = userService.login(username,password);
+        //System.out.println("loginSucc="+loginSucc);
         HashMap<String,String> res = new HashMap<String, String>();
         if (loginSucc==2) {
             User user = userService.getUserByName(username);
+            //System.out.println("username"+user.getUserName());
             Integer uid = user.getId();
             httpSession.setAttribute("userId",uid);
             httpSession.setAttribute("username",username);
@@ -61,11 +63,12 @@ public class UserController {
         }else {
             res.put("stateCode","0");
         }
+        //System.out.println("res="+res.get("stateCode"));
         return res;
     }
 
     //用户登出
-    @RequestMapping("/out")
+    @RequestMapping("/signout")
     public String signout(HttpSession httpSession) {
         httpSession.removeAttribute("userId");
         httpSession.removeAttribute("username");

@@ -32,7 +32,7 @@ public class UserServiceImpl implements IUserService {
     }
 
     public User getUserByName(String username) {
-        return null;
+        return userDao.selectUserByName(username);
     }
 
     public boolean existUsername(String username) {

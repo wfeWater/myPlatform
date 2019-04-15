@@ -65,7 +65,7 @@
         var r=confirm("确定退出?")
         if (r==true)
         {
-            window.location.href="/signout";
+            window.location.href="/mypaltform/signout";
         }
         else
         {
