@@ -42,7 +42,7 @@ public class UserController {
         return "redirect:/";
     }
     //登录
-    @RequestMapping("/signin")
+    @RequestMapping("/check")
     @ResponseBody
     public Object signin(HttpServletRequest httpServletRequest, HttpSession httpSession) {
         String password = httpServletRequest.getParameter("password");
@@ -64,7 +64,7 @@ public class UserController {
     }
 
     //用户登出
-    @RequestMapping("/signout")
+    @RequestMapping("/out")
     public String signout(HttpSession httpSession) {
         httpSession.removeAttribute("userId");
         httpSession.removeAttribute("username");
