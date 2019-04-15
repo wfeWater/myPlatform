@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>注册 - Genesis</title>
+    <title>注册 - wfewater</title>
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <script src="/js/jquery-3.2.1.js"></script>
     <script src="/js/bootstrap.min.js"></script>
@@ -60,7 +60,7 @@
         <h3 class="panel-title">注册</h3>
     </div>
     <div class="panel-body">
-        <form action="/add" method="post" id="signupForm" class="form-horizontal" role="form" style="margin-left: 5%">
+        <form action="/mypaltform/add" method="post" id="signupForm" class="form-horizontal" role="form" style="margin-left: 5%">
             <div class="form-group" >
                 <label class="col-sm-2 control-label">用户名</label>
                 <div class="col-sm-10" style="width: 40%;">

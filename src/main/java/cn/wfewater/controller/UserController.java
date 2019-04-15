@@ -42,9 +42,10 @@ public class UserController {
         return "redirect:/";
     }
     //登录
-    @RequestMapping("/check")
+    @RequestMapping("/api/loginCheck")
     @ResponseBody
     public Object signin(HttpServletRequest httpServletRequest, HttpSession httpSession) {
+        System.out.println("In loginCheck");
         String password = httpServletRequest.getParameter("password");
         String username = httpServletRequest.getParameter("username");
         int loginSucc = userService.login(username,password);
