@@ -9,4 +9,6 @@ public interface IUserService {
 
     User getUserByName(String username);
     boolean existUsername(String username);
+
+    User getUserById(Integer uid);
 }

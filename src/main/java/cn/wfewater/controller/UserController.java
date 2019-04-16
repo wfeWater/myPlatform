@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.jws.soap.SOAPBinding;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.HashMap;
@@ -73,6 +74,18 @@ public class UserController {
         httpSession.removeAttribute("userId");
         httpSession.removeAttribute("username");
         return "redirect:/";
+    }
+
+    //用户设置
+    @RequestMapping("/settings")
+    public ModelAndView setting(HttpServletRequest httpServletRequest,HttpSession httpSession) {
+        Integer uid = (Integer) httpSession.getAttribute("userId");
+        User user = userService.getUserById(uid);
+
+
+        ModelAndView stmodelAndView = new ModelAndView("settings");
+        stmodelAndView.addObject("user",user);
+        return  stmodelAndView;
     }
 
 }

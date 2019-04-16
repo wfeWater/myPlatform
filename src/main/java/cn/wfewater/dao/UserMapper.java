@@ -11,4 +11,6 @@ public interface UserMapper {
     int existUsername(String username);
 
     User selectUserByName(String username);
+
+    User getUserById(Integer uid);
 }

@@ -38,4 +38,8 @@ public class UserServiceImpl implements IUserService {
     public boolean existUsername(String username) {
         return  userDao.existUsername(username)==1;
     }
+
+    public User getUserById(Integer uid) {
+        return userDao.getUserById(uid);
+    }
 }
