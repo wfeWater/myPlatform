@@ -19,4 +19,12 @@
         select id,username,password,telnum from sys_users
         where username=#{username,jdbcType=VARCHAR}
     </select>
+    <select id="getUserById" parameterType="integer" resultType="cn.wfewater.domain.User">
+        select id,username,password,telnum
+        from sys_users where id=#{uid};
+    </select>
+    <!--<select id="getUserById" parameterType="integer" resultType="cn.wfewater.domain.User">-->
+        <!--select id,username,password,telnum from sys_users-->
+        <!--where id=#{uid,jdbcType=Integer};-->
+    <!--</select>-->
 </mapper>

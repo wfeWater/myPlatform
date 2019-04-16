@@ -1,5 +1,7 @@
 package cn.wfewater.service;
 
-public interface ITopicService {
+import cn.wfewater.domain.Topic;
 
+public interface ITopicService {
+    int add(Topic topic);
 }

@@ -21,5 +21,10 @@ Log4j的配置也有问题,虽然不影响运行.但是日志会爆红,白天处
 首页,footer和header,signin和signup前后沟通完毕 17:17
 注册功能通过 email属于虚假字段,数据库中并没有该字段 登录功能还有待研究 22:41
 注册功能,登录功能,登出功能(即用户模块全部功能)实现测试通过,白天写Topic模块 0:02
+##4月16日
+用户模块除了用户主页全部通过(用户主页需要完成Topic模块才能补齐)
+增加Topic和Reply数据库表,创建新主题页面和后端对接
+BUGFIX,Tomcat启动异常抛出java.lang.IllegalStateException,原因是:队友瞎说话
+(MyBatis中SQL语句有问题而且user表中没有设计头像字段导致访问Setting时,报了500)
 
 

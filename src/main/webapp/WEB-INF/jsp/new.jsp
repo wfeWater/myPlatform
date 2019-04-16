@@ -16,11 +16,11 @@
     <div style="width: 70%;margin:1% 2% 1% 5%;float: left;">
     <div class="panel panel-default" id="main" style="">
         <div class="panel-heading" style="background-color: white">
-            <a href="/">Genesis</a> › 创作新主题
+            <a href="/mypaltform">wfewater</a> › 创作新主题
         </div>
 
         <div class="panel-body">
-            <form action="/topic/add" method="post" id="replyForm">
+            <form action="/mypaltform/topic/add" method="post" id="replyForm">
                 <div class="form-group">
                     <label for="title">主题标题</label>
                     <input type="text" class="form-control" id="title" name="title" placeholder="请输入主题标题，如果标题能够表达完整内容，则正文可以为空" required="required">
@@ -30,16 +30,16 @@
                     <textarea class="form-control" rows="10" id="content" name="content"></textarea>
                 </div>
 
-                <div class="form-group">
-                    <label for="tab">板块</label><br/>
-                    <div class="col-sm-10" style="width: 40%">
-                        <select class="form-control" id="tab" name="tab">
-                            <c:forEach items="${tabs}" var="tab">
-                            <option value="${tab.id}">${tab.tabName}</option>
-                            </c:forEach>
-                        </select>
-                    </div>
-                </div><br/>
+                <%--<div class="form-group">--%>
+                    <%--<label for="tab">板块</label><br/>--%>
+                    <%--<div class="col-sm-10" style="width: 40%">--%>
+                        <%--<select class="form-control" id="tab" name="tab">--%>
+                            <%--<c:forEach items="${tabs}" var="tab">--%>
+                            <%--<option value="${tab.id}">${tab.tabName}</option>--%>
+                            <%--</c:forEach>--%>
+                        <%--</select>--%>
+                    <%--</div>--%>
+                <%--</div><br/>--%>
                 <input type="submit" class="btn btn-default btn-sm" value="发布主题">
 
             </form>

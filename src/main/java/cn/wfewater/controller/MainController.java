@@ -18,4 +18,10 @@ public class MainController {
         ModelAndView sumodelAndView = new ModelAndView("signup");
         return sumodelAndView;
     }
+    @RequestMapping("/new")
+    public ModelAndView create() {
+        System.out.println("In new");
+        ModelAndView nmodelAndView = new ModelAndView("new");
+        return nmodelAndView;
+    }
 }

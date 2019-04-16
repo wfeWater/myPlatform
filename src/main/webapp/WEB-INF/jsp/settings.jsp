@@ -26,7 +26,7 @@
                         <%--<img width="60px" height="60px" src="${user.avatar}" class="img-rounded">--%>
                         <%--<a class="btn btn-default" href="/settings/avatar" role="button">更换头像</a>--%>
                     <%--</div>--%>
-                    <%--<div class="form-group">--%>
+                    <div class="form-group">
                         <label class="col-sm-2 control-label">uid</label>
                         <div class="col-sm-10">
                             <p class="form-control-static">${user.id}</p>
@@ -35,15 +35,15 @@
                     <div class="form-group">
                         <label class="col-sm-2 control-label">用户名</label>
                         <div class="col-sm-10">
-                            <p class="form-control-static">${user.username}</p>
+                            <p class="form-control-static">${user.userName}</p>
                         </div>
                     </div>
-                    <%--<div class="form-group">--%>
-                        <%--<label class="col-sm-2 control-label">Email</label>--%>
-                        <%--<div class="col-sm-10">--%>
-                            <%--<p class="form-control-static">${user.email}</p>--%>
-                        <%--</div>--%>
-                    <%--</div>--%>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Tel</label>
+                        <div class="col-sm-10">
+                            <p class="form-control-static">${user.telNum}</p>
+                        </div>
+                    </div>
                     <%--<div class="form-group">--%>
                         <%--<label class="col-sm-2 control-label">注册时间</label>--%>
                         <%--<div class="col-sm-10">--%>
