@@ -9,6 +9,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
+import java.util.Date;
 
 @Controller
 public class TopicController {
@@ -24,18 +25,23 @@ public class TopicController {
     @RequestMapping("/topic/add")
     public ModelAndView topicCreate(HttpServletRequest httpServletRequest, HttpSession httpSession) {
         System.out.println("In topic add");
-        ModelAndView tcmodelAndView = null;
+        ModelAndView tcmodelAndView;
         if(httpSession.getAttribute("userId")==null) {
             tcmodelAndView = new ModelAndView("signin");
             return tcmodelAndView;
         }
+        Integer userId = (Integer) httpSession.getAttribute("userId");
         String content = httpServletRequest.getParameter("content");
         String title = httpServletRequest.getParameter("title");
         Topic topic = new Topic();
         topic.setContent(content);
         topic.setTitle(title);
-        topicService.add(topic);
-
+        topic.setUserId(userId);
+        topic.setCreateTime(new Date());
+        topic.setUpdateTime(new Date());
+//        int adres = topicService.add(topic);
+//        System.out.println("adres=" + adres);
+        tcmodelAndView = new ModelAndView("cate");
         return tcmodelAndView;
     }
 }

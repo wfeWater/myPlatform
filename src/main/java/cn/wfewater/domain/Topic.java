@@ -1,10 +1,12 @@
 package cn.wfewater.domain;
 
+import java.util.Date;
+
 public class Topic {
     private int id;
     private int userId;
-    private int createTime;
-    private int updateTime;
+    private Date createTime;
+    private Date updateTime;
     private String title;
     private String content;
     private int tabId;
@@ -25,19 +27,19 @@ public class Topic {
         this.userId = userId;
     }
 
-    public int getCreateTime() {
+    public Date getCreateTime() {
         return createTime;
     }
 
-    public void setCreateTime(int createTime) {
+    public void setCreateTime(Date createTime) {
         this.createTime = createTime;
     }
 
-    public int getUpdateTime() {
+    public Date getUpdateTime() {
         return updateTime;
     }
 
-    public void setUpdateTime(int updateTime) {
+    public void setUpdateTime(Date updateTime) {
         this.updateTime = updateTime;
     }
 
@@ -67,7 +69,7 @@ public class Topic {
 
     @Override
     public String toString() {
-        return "TopicDao{" +
+        return "Topic{" +
                 "id=" + id +
                 ", userId=" + userId +
                 ", createTime=" + createTime +
@@ -77,5 +79,4 @@ public class Topic {
                 ", tabId=" + tabId +
                 '}';
     }
-
 }
