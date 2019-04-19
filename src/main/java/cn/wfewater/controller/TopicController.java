@@ -24,7 +24,7 @@ public class TopicController {
 
     @RequestMapping("/topic/add")
     public ModelAndView topicCreate(HttpServletRequest httpServletRequest, HttpSession httpSession) {
-        System.out.println("In topic add");
+        //System.out.println("In topic add");
         ModelAndView tcmodelAndView;
         if(httpSession.getAttribute("userId")==null) {
             tcmodelAndView = new ModelAndView("signin");

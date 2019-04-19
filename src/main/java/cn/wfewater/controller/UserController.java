@@ -45,15 +45,17 @@ public class UserController {
     @RequestMapping("/loginCheck")
     @ResponseBody
     public Object signin(HttpServletRequest httpServletRequest, HttpSession httpSession) {
-        //System.out.println("In loginCheck");
+        System.out.println("In loginCheck");
         String password = httpServletRequest.getParameter("password");
+        System.out.println("password=" + password);
         String username = httpServletRequest.getParameter("username");
+        System.out.println("username="+ username);
         int loginSucc = userService.login(username,password);
-        //System.out.println("loginSucc="+loginSucc);
+        System.out.println("loginSucc="+loginSucc);
         HashMap<String,String> res = new HashMap<String, String>();
         if (loginSucc==2) {
             User user = userService.getUserByName(username);
-            //System.out.println("username"+user.getUserName());
+            System.out.println("username"+user.getUserName());
             Integer uid = user.getId();
             httpSession.setAttribute("userId",uid);
             httpSession.setAttribute("username",username);
@@ -63,7 +65,7 @@ public class UserController {
         }else {
             res.put("stateCode","0");
         }
-        //System.out.println("res="+res.get("stateCode"));
+        System.out.println("res="+res.get("stateCode"));
         return res;
     }
 
