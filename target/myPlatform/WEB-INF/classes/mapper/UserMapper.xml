@@ -17,14 +17,10 @@
     </select>
     <select id="selectUserByName" parameterType="java.lang.String" resultType="cn.wfewater.domain.User">
         select id,username,password,telnum from sys_users
-        where username=#{username}
+        where username=#{username,jdbcType=VARCHAR}
     </select>
     <select id="getUserById" parameterType="java.lang.Integer" resultType="cn.wfewater.domain.User">
         select id,username,password,telnum
-        from sys_users where id=#{uid};
+        from sys_users where id=#{uid}
     </select>
-    <!--<select id="getUserById" parameterType="integer" resultType="cn.wfewater.domain.User">-->
-        <!--select id,username,password,telnum from sys_users-->
-        <!--where id=#{uid,jdbcType=Integer};-->
-    <!--</select>-->
 </mapper>

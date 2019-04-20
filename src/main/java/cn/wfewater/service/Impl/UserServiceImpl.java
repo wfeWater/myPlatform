@@ -32,7 +32,8 @@ public class UserServiceImpl implements IUserService {
     }
 
     public User getUserByName(String username) {
-        return userDao.selectUserByName(username);
+         User resuser =userDao.selectUserByName(username);
+         return resuser;
     }
 
     public boolean existUsername(String username) {

@@ -91,9 +91,10 @@ public class UserController {
         boolean isExist = userService.existUsername(username);
         System.out.println("isExist="+isExist);
         ModelAndView pimodelAndView = new ModelAndView("user_info");
-        User user = userService.getUserById((Integer)httpSession.getAttribute("uid"));
+        User user = userService.getUserById((Integer)httpSession.getAttribute("userId"));
+//        System.out.println("username" + user.getTelNum());
         if (isExist) {
-            User resuser = userService.getUserByName("username");
+            User resuser = userService.getUserById((Integer)httpSession.getAttribute("userId"));
             System.out.println("username"+resuser.getUserName()+" uid" + resuser.getId());
             pimodelAndView.addObject("userInfo",resuser);
             pimodelAndView.addObject("user",user);

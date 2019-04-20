@@ -33,6 +33,6 @@ BUGFIX,Tomcat启动异常抛出java.lang.IllegalStateException,原因是:队友�
 用户个人信息模块基本完成 还有待修补 14:51
 User resuser = userService.getUserByName("username");报错500 空指针异常 说明没找到这个用户
 先去修电脑 然后晚上修改 15:01
-
+memberInfo块的空指针异常问题通过改变User的获取方法得到解决 但是getUserbyname还是存在空指针的问题 19:17
 
 
