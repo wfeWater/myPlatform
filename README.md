@@ -31,5 +31,8 @@ BUGFIX,Tomcat启动异常抛出java.lang.IllegalStateException,原因是:队友�
 抽时间研究一下为什么数据库会消失 晚上写Topic展示部分代码 然后做PPT,写开发文档 15:56
 ##4月20日
 用户个人信息模块基本完成 还有待修补 14:51
+User resuser = userService.getUserByName("username");报错500 空指针异常 说明没找到这个用户
+先去修电脑 然后晚上修改 15:01
+
 
 

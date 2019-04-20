@@ -89,16 +89,20 @@ public class UserController {
         System.out.println("In personal");
         String errorInfo = "会员未找到";
         boolean isExist = userService.existUsername(username);
+        System.out.println("isExist="+isExist);
         ModelAndView pimodelAndView = new ModelAndView("user_info");
         User user = userService.getUserById((Integer)httpSession.getAttribute("uid"));
         if (isExist) {
             User resuser = userService.getUserByName("username");
+            System.out.println("username"+resuser.getUserName()+" uid" + resuser.getId());
             pimodelAndView.addObject("userInfo",resuser);
             pimodelAndView.addObject("user",user);
+            return  pimodelAndView;
         }else {
             pimodelAndView.addObject("errorInfo",errorInfo);
+            return  pimodelAndView;
         }
-        return  pimodelAndView;
+
     }
 
 }
