@@ -59,29 +59,22 @@
         <a style="margin-right: 2%">活跃</a><a style="margin-right: 2%">精华</a><a style="margin-right: 2%">最近</a>
     </div>
 
-<%--<ul class="list-group" style="width: 100%">--%>
-    <%--<c:forEach items="${topics}" var="topic">--%>
-    <%--<li class="list-group-item">--%>
-        <%--<div style="height: 50px">--%>
-            <%--<div style="float: left;width: 6%;margin-bottom: 5px">--%>
-                <%--<img width="50px" height="50px" src="${topic.user.avatar}" class="img-rounded">--%>
-            <%--</div>--%>
-            <%--<div style="width: 89%;float: left">--%>
-                <%--<a href="/t/${topic.id}">${topic.title}</a><br/>--%>
-                <%--<div>--%>
-                    <%--<a><span class="label label-default" >${topic.tab.tabName}</span></a>&nbsp;&nbsp;&nbsp;--%>
-                    <%--<a href="/member/${topic.user.username}"><span ><strong>${topic.user.username}</strong></span></a>&nbsp;&nbsp;&nbsp;--%>
-                    <%--<small class="text-muted">${topic.localCreateTime}</small>--%>
-                <%--</div>--%>
-            <%--</div>--%>
-            <%--<div style="width: 5%;float: right;text-align: center">--%>
-                <%--<span class="badge">${topic.countReplies}</span>--%>
-            <%--</div>--%>
-        <%--</div>--%>
-    <%--</li>--%>
-    <%--</c:forEach>--%>
+<ul class="list-group" style="width: 100%">
+    <c:forEach items="${topics}" var="topic">
+    <li class="list-group-item">
+        <div style="height: 50px">
+            <div style="width: 89%;float: left">
+                <a href="/t/${topic.id}">${topic.title}</a><br/>
+                <div>
+                    <a href="/member/${topic.user.userName}"><span ><strong>${topic.user.userName}</strong></span></a>&nbsp;&nbsp;&nbsp;
+                    <small class="text-muted">${topic.createTime}</small>
+                </div>
+            </div>
+        </div>
+    </li>
+    </c:forEach>
 
-<%--</ul>--%>
+</ul>
 
 </div>
 

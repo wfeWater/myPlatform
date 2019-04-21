@@ -34,5 +34,7 @@ BUGFIX,Tomcat启动异常抛出java.lang.IllegalStateException,原因是:队友�
 User resuser = userService.getUserByName("username");报错500 空指针异常 说明没找到这个用户
 先去修电脑 然后晚上修改 15:01
 memberInfo块的空指针异常问题通过改变User的获取方法得到解决 但是getUserbyname还是存在空指针的问题 19:17
+##4月21号
+除去Reply还差帖子展示页面,而且主页新建帖子的时间戳有问题 晚上修复 16:34
 
 

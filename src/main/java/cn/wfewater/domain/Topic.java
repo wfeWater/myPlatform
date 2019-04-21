@@ -3,6 +3,7 @@ package cn.wfewater.domain;
 import java.util.Date;
 
 public class Topic {
+    private User user;
     private int id;
     private int userId;
     private Date createTime;
@@ -13,6 +14,14 @@ public class Topic {
 
     public int getId() {
         return id;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 
     public void setId(int id) {
