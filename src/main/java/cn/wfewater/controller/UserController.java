@@ -30,7 +30,7 @@ public class UserController {
     //注册
     @RequestMapping("/add")
     public String signUp(HttpServletRequest httpServletRequest) {
-        System.out.println("In signUp");
+//        System.out.println("In signUp");
         String username = httpServletRequest.getParameter("username");
         String password = httpServletRequest.getParameter("password");
         String telNum = httpServletRequest.getParameter("tel");
@@ -39,20 +39,22 @@ public class UserController {
         user.setPassword(password);
         user.setTelNum(telNum);
         int isSucc = userService.add(user);
-        System.out.println(isSucc);
+//        System.out.println(isSucc);
         return "redirect:/";
     }
     //登录
     @RequestMapping("/loginCheck")
     @ResponseBody
     public Object signin(HttpServletRequest httpServletRequest, HttpSession httpSession) {
-        System.out.println("In loginCheck");
+//        System.out.println("In loginCheck");
         String password = httpServletRequest.getParameter("password");
         String username = httpServletRequest.getParameter("username");
         int loginSucc = userService.login(username,password);
+//        System.out.println("loginSucc=" + loginSucc);
         HashMap<String,String> res = new HashMap<String, String>();
         if (loginSucc==2) {
             User user = userService.getUserByName(username);
+//            System.out.println("User="+user.toString());
             Integer uid = user.getId();
             httpSession.setAttribute("userId",uid);
             httpSession.setAttribute("username",username);
@@ -76,7 +78,7 @@ public class UserController {
     //用户设置
     @RequestMapping("/settings")
     public ModelAndView setting(HttpServletRequest httpServletRequest,HttpSession httpSession) {
-        System.out.println("in setting");
+//        System.out.println("in setting");
         Integer uid = (Integer) httpSession.getAttribute("userId");
         User user = userService.getUserById(uid);
         ModelAndView stmodelAndView = new ModelAndView("settings");

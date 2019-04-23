@@ -36,7 +36,7 @@ public class TopicController {
         //System.out.println("In topic add");
         ModelAndView tcmodelAndView;
         if(httpSession.getAttribute("userId")==null) {
-            tcmodelAndView = new ModelAndView("signin");
+            tcmodelAndView = new ModelAndView("redirect:/signin");
             return tcmodelAndView;
         }
         Integer userId = (Integer) httpSession.getAttribute("userId");
@@ -48,9 +48,10 @@ public class TopicController {
         topic.setUserId(userId);
         topic.setCreateTime(new Date());
         topic.setUpdateTime(new Date());
-//        int adres = topicService.add(topic);
+//        System.out.println("CreateTime"+topic.getCreateTime()+"、 UpdateTime"+topic.getUpdateTime());
+        int adres = topicService.add(topic);
 //        System.out.println("adres=" + adres);
-        tcmodelAndView = new ModelAndView("cate");
+        tcmodelAndView = new ModelAndView("redirect:/");
         return tcmodelAndView;
     }
 }

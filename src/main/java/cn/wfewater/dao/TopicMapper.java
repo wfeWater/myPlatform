@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface TopicMapper {
 
-    public int add(Topic topic);
+    int add(Topic topic);
 
     List<Topic> listTopicsAndUserInfo();
 }
