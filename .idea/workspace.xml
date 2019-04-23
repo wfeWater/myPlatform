@@ -6,17 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c6325b9-a471-489d-869e-56c02dfbe3b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/wfewater/controller/TopicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/wfewater/controller/TopicController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/wfewater/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/wfewater/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/wfewater/dao/TopicMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/wfewater/dao/TopicMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/wfewater/service/ITopicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/wfewater/service/ITopicService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/wfewater/service/Impl/TopicServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/wfewater/service/Impl/TopicServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/cate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/cate.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/mapper/TopicMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/mapper/TopicMapper.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9c6325b9-a471-489d-869e-56c02dfbe3b8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +48,7 @@
     <session id="1277415177">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="66" />
+          <entry key="project.closed" value="67" />
           <entry key="project.open.time.1" value="39" />
           <entry key="project.open.time.2" value="11" />
           <entry key="project.open.time.21" value="1" />
@@ -83,7 +73,7 @@
           <entry key="iml" value="2" />
           <entry key="java" value="82" />
           <entry key="jsp" value="50" />
-          <entry key="md" value="14" />
+          <entry key="md" value="15" />
           <entry key="properties" value="4" />
           <entry key="sql" value="6" />
           <entry key="tld" value="1" />
@@ -95,7 +85,7 @@
           <entry key="IDEA_MODULE" value="2" />
           <entry key="JAVA" value="82" />
           <entry key="JSP" value="50" />
-          <entry key="Markdown" value="14" />
+          <entry key="Markdown" value="15" />
           <entry key="Properties" value="4" />
           <entry key="Scratch" value="6" />
           <entry key="XML" value="25" />
@@ -106,7 +96,7 @@
           <entry key="dummy" value="13" />
           <entry key="java" value="4795" />
           <entry key="jsp" value="502" />
-          <entry key="md" value="1520" />
+          <entry key="md" value="1575" />
           <entry key="properties" value="10" />
           <entry key="sql" value="671" />
           <entry key="txt" value="35" />
@@ -117,7 +107,7 @@
         <counts>
           <entry key="JAVA" value="4795" />
           <entry key="JSP" value="502" />
-          <entry key="Markdown" value="1520" />
+          <entry key="Markdown" value="1575" />
           <entry key="PLAIN_TEXT" value="48" />
           <entry key="Properties" value="10" />
           <entry key="SQL" value="15" />
@@ -151,20 +141,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user_info.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="46" column="71" selection-start-line="46" selection-start-column="71" selection-end-line="46" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wfewater/controller/MainController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="256">
+              <caret line="56" column="22" lean-forward="true" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -201,6 +182,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
               <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="243">
+                <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -291,7 +284,6 @@
         <option value="$PROJECT_DIR$/src/resources/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/wfewater/domain/Topic.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/signin.jsp" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/detail.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/cn/wfewater/service/ITopicService.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/wfewater/service/Impl/TopicServiceImpl.java" />
@@ -300,6 +292,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/cate.jsp" />
         <option value="$PROJECT_DIR$/src/resources/mapper/TopicMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/wfewater/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -660,12 +653,12 @@
       <workItem from="1555942727903" duration="109000" />
       <workItem from="1555942987893" duration="1869000" />
       <workItem from="1556008191215" duration="848000" />
-      <workItem from="1556009260279" duration="4751000" />
+      <workItem from="1556009260279" duration="5068000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95845000" />
+    <option name="totallyTimeSpent" value="96162000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -678,7 +671,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22150365" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -690,14 +682,14 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43687707" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43687707" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32890365" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.43023255" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.2591362" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4995958" weight="0.32890365" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4995958" visible="true" weight="0.32890365" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" weight="0.73255813" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.25083056" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
@@ -930,16 +922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="409">
-            <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/wfewater/service/ITopicService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1021,8 +1003,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user_info.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="46" column="71" selection-start-line="46" selection-start-column="71" selection-end-line="46" selection-end-column="71" />
+        <state relative-caret-position="256">
+          <caret line="56" column="22" lean-forward="true" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="243">
+            <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
