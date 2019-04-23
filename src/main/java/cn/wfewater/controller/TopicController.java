@@ -6,6 +6,7 @@ import cn.wfewater.service.Impl.TopicServiceImpl;
 import cn.wfewater.service.Impl.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -53,5 +54,12 @@ public class TopicController {
 //        System.out.println("adres=" + adres);
         tcmodelAndView = new ModelAndView("redirect:/");
         return tcmodelAndView;
+    }
+
+    //渲染主题页面
+    @RequestMapping("/t/{id}")
+    public ModelAndView toTopic(@PathVariable("id")Integer id,HttpSession httpSession) {
+        ModelAndView ttModelAndView = new ModelAndView("detail");
+        return ttModelAndView;
     }
 }
