@@ -22,8 +22,8 @@
             </div>
             <h3>${topic.title}</h3><br/>
             <div>
-                <a href="/member/${topic.user.username}"><span ><strong>${topic.user.username}</strong></span></a>&nbsp;&nbsp;
-                <small class="text-muted">${topic.localCreateTime}&nbsp;&nbsp;&nbsp;+08:00</small>&nbsp;&nbsp;
+                <a href="/member/${topic.user.userName}"><span ><strong>${topic.user.userName}</strong></span></a>&nbsp;&nbsp;
+                <small class="text-muted">${topic.createTime}&nbsp;&nbsp;&nbsp;+08:00</small>&nbsp;&nbsp;
                 <%--<small class="text-muted">${topic.click}次点击</small>--%>
             </div>
         </div>

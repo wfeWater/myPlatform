@@ -59,7 +59,13 @@ public class TopicController {
     //渲染主题页面
     @RequestMapping("/t/{id}")
     public ModelAndView toTopic(@PathVariable("id")Integer id,HttpSession httpSession) {
+        System.out.println("In toTopic");
         ModelAndView ttModelAndView = new ModelAndView("detail");
+        Topic topic = topicService.getTopicById(id);
+        User user = userService.getUserById((Integer)httpSession.getAttribute("userId"));
+        ttModelAndView.addObject("user",user);
+        ttModelAndView.addObject("topic",topic);
+
         return ttModelAndView;
     }
 }

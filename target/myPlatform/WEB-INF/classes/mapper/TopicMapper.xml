@@ -30,4 +30,8 @@
               LEFT JOIN reply on topic.id=reply.topic_id
         group by topic.id order by topic.id desc ;
     </select>
+    <select id="getTopicById" parameterType="integer" resultType="cn.wfewater.domain.Topic">
+        SELECT topic.id,topic.user_id,topic.create_time,topic.update_time,topic.title,topic.content
+        FROM topic WHERE id=#{id};
+    </select>
 </mapper>

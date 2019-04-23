@@ -19,4 +19,8 @@ public class TopicServiceImpl implements ITopicService {
     public List<Topic> listTopicsAndUserInfo() {
         return topicDao.listTopicsAndUserInfo();
     }
+
+    public Topic getTopicById(Integer id) {
+        return topicDao.getTopicById(id);
+    }
 }

@@ -64,9 +64,9 @@
     <li class="list-group-item">
         <div style="height: 50px">
             <div style="width: 89%;float: left">
-                <a href="/t/${topic.id}">${topic.title}</a><br/>
+                <a href="/mypaltform/t/${topic.id}">${topic.title}</a><br/>
                 <div>
-                    <a href="/member/${topic.user.userName}"><span ><strong>${topic.user.userName}</strong></span></a>&nbsp;&nbsp;&nbsp;
+                    <a href="/mypaltform/member/${topic.user.userName}"><span ><strong>${topic.user.userName}</strong></span></a>&nbsp;&nbsp;&nbsp;
                     <small class="text-muted">${topic.createTime}</small>
                 </div>
             </div>

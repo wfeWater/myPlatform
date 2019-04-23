@@ -9,4 +9,6 @@ public interface TopicMapper {
     int add(Topic topic);
 
     List<Topic> listTopicsAndUserInfo();
+
+    Topic getTopicById(Integer id);
 }

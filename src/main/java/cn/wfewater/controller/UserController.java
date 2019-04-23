@@ -88,16 +88,16 @@ public class UserController {
     //用户个人中心
     @RequestMapping("/member/{username}")
     public ModelAndView perInfo(@PathVariable("username")String username, HttpSession httpSession) {
-        System.out.println("In personal");
+//        System.out.println("In personal");
         String errorInfo = "会员未找到";
         boolean isExist = userService.existUsername(username);
-        System.out.println("isExist="+isExist);
+//        System.out.println("isExist="+isExist);
         ModelAndView pimodelAndView = new ModelAndView("user_info");
         User user = userService.getUserById((Integer)httpSession.getAttribute("userId"));
 //        System.out.println("username" + user.getTelNum());
         if (isExist) {
             User resuser = userService.getUserById((Integer)httpSession.getAttribute("userId"));
-            System.out.println("username"+resuser.getUserName()+" uid" + resuser.getId());
+//            System.out.println("username"+resuser.getUserName()+" uid" + resuser.getId());
             pimodelAndView.addObject("userInfo",resuser);
             pimodelAndView.addObject("user",user);
             return  pimodelAndView;

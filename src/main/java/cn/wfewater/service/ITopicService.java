@@ -9,4 +9,5 @@ public interface ITopicService {
 
     List<Topic> listTopicsAndUserInfo();
 
+    Topic getTopicById(Integer id);
 }
